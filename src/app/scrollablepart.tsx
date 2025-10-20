@@ -32,8 +32,8 @@ export default function ScrollablePart(){
     },[])
 
 
-    return(<div className="relative w-screen h-auto overflow-hidden">
-            <div className="relative mt-45 w-full h-full flex flex-row justify-center z-5">
+    return(<div className="relative w-screen h-auto overflow-hidden z-5">
+            <div className="relative mt-45 w-full h-full flex flex-row justify-center">
                 <div className={`max-w-[70%] scale-0 text-[180px] text-center transition-all opacity-50 duration-1000 ${domine.className} font-bold text-orange-700/85`} ref={heading1ref}>CAPTURING MOMENTS, CREATING STORIES</div>
             </div>
 

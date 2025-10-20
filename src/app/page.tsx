@@ -4,7 +4,7 @@ import Camera from "./camera";
 import ScrollablePart from "./scrollablepart";
 import CameraShadow from "./camerashadow";
 import Background from "./background";
-import ScrollarParent from "./scrollarparent";
+// import ScrollarParent from "./scrollarparent";
 
 export default function Page(){
 
@@ -13,14 +13,16 @@ export default function Page(){
   }
 
 
-  return(<div className="relative w-screen h-screen overflow-hidden" onScroll={(e) => ScrollEventFunc(e)}>
+  return(<div className="relative w-screen h-screen overflow-hidden">
     
     <FixedBlock />
-    {/* <Camera /> */}
+    <Camera />
     <CameraShadow />
-    {/* <ScrollablePart /> */}
     <Background />
-    <ScrollarParent />
+    <div className="absolute w-screen h-screen overflow-y-scroll z-5"><ScrollablePart /></div>     
+    {/* <ScrollarParent /> */}
+                                                    {/* z stacking order in issue scrollar not working */}
+
     
      </div>)
 }
