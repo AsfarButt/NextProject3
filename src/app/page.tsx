@@ -3,6 +3,8 @@ import FixedBlock from "./fixedblock";
 import Camera from "./camera";
 import ScrollablePart from "./scrollablepart";
 import CameraShadow from "./camerashadow";
+import Background from "./background";
+import ScrollarParent from "./scrollarparent";
 
 export default function Page(){
 
@@ -11,12 +13,14 @@ export default function Page(){
   }
 
 
-  return(<div className="relative w-screen h-fit bg-orange-100/80 overflow-hidden" onScroll={(e) => ScrollEventFunc(e)}>
+  return(<div className="relative w-screen h-screen overflow-hidden" onScroll={(e) => ScrollEventFunc(e)}>
     
     <FixedBlock />
-    <Camera />
+    {/* <Camera /> */}
     <CameraShadow />
-    <ScrollablePart />
+    {/* <ScrollablePart /> */}
+    <Background />
+    <ScrollarParent />
     
      </div>)
 }

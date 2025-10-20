@@ -32,7 +32,7 @@ export default function ScrollablePart(){
     },[])
 
 
-    return(<div className="relative w-screen h-auto overflow-y-scroll">
+    return(<div className="relative w-screen h-auto overflow-hidden">
             <div className="relative mt-45 w-full h-full flex flex-row justify-center z-5">
                 <div className={`max-w-[70%] scale-0 text-[180px] text-center transition-all opacity-50 duration-1000 ${domine.className} font-bold text-orange-700/85`} ref={heading1ref}>CAPTURING MOMENTS, CREATING STORIES</div>
             </div>
@@ -74,7 +74,7 @@ export default function ScrollablePart(){
                         <h4 className="text-black/70 mx-1 text-[10px]">Photo Academy of Ireland</h4>
                         <hr  className="mt-2"/>
                         <div className="flex flex-row p-2">
-                            <h1 className="text-4xl font-semibold my-auto text-black/95">87%%</h1>
+                            <h1 className="text-4xl font-semibold my-auto text-black/95">87%</h1>
                             <h4 className="text-gray-900/70 ml-2 line-clamp-3">Completed all assignments with distinction-level quality. Work stood out for emotional depth and thoughtful composition. A promising talent with professional dedication.</h4>
                         </div>
                     </div>
