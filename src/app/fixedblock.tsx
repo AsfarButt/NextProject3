@@ -25,7 +25,7 @@ export default function FixedBlock(){
         onstart2.current?.classList.remove("-translate-y-[100%]");
     },[])
 
-    return(<div className="fixed flex w-screen h-screen z-10 overflow-hidden">
+    return(<div className="fixed flex w-screen h-screen z-5 overflow-hidden pointer-events-none">
         <div className="w-[8%] min-w-26 h-[92vh] flex justify-center border-r-3 border-black border-box transition-all duration-1000 -translate-x-[100%]" ref={onstart1}>
         <div className="relative mt-2 flex flex-col">
             <img src="/lines.png" className="w-10 h-10" alt="Lines PNG" />

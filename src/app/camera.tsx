@@ -10,7 +10,7 @@ export default function Camera(){
     },[])
 
 
-    return(<div className="fixed top-0 w-full h-full flex justify-center items-center overflow-hidden z-10">
+    return(<div className="fixed top-0 w-full h-full flex justify-center items-center overflow-hidden z-5 pointer-events-none">
         <div className="relative w-[90%] max-w-260 h-auto flex justify-center items-center transition-tranform duration-1500" ref={camera}>
             <img src="/camera2.png" alt="Main Camera" className="relative w-full h-full" />
             {/* <div className="absolute bottom-0 left-0 w-[70%] h-[60%] bg-black/50 blur-xl mt-5 [box-shadow:0_0_80px_20px_rgba(0,0,0,0.9)] z-0" /> */}
