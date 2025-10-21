@@ -36,10 +36,11 @@ export default function ScrollablePart(){
     },[])
 
 
+
     return(<div className="relative w-screen h-auto overflow-hidden z-5">
                 {/* Part One */}
                 <div className="relative mt-25 w-full h-full flex flex-row justify-center">
-                <div className={`max-w-[50%] scale-0 text-[180px] text-center transition-all opacity-50 duration-1000 ${domine.className} font-bold text-orange-700/85`} ref={heading1ref}>CAPTURING MOMENTS AND MORE</div>
+                <div className={`max-w-[50%] scale-0 text-[180px] text-center transition-all opacity-50 duration-1000 ${domine.className} font-bold text-orange-700/85`} ref={heading1ref}>CAPTURING MOMENTS AND </div>
                  </div>
 
                 {/* Part Two */}
@@ -107,9 +108,9 @@ export default function ScrollablePart(){
 
                 {/* Part Four */}
                 <div className="relative mt-60 w-full h-240 flex justify-center items-center">
-                    <img src="/scroll2img1.jpg" alt="Image 1"  className="absolute w-60 h-60 opacity-70 brightness-110 border border-white shadow-lg shadow-black/80 -translate-x-[200%] -translate-y-[70%] -rotate-20"/>
-                    <img src="/scroll2img2.jpg" alt="Image 2"  className="absolute w-60 h-60 opacity-70 brightness-110 border border-white shadow-lg shadow-black/80 translate-x-[220%] -translate-y-[10%] rotate-8"/>
-                    <img src="/scroll2img3.jpg" alt="Image 3"  className="absolute w-60 h-60 opacity-70 brightness-110 border border-white shadow-lg shadow-black/80 -translate-x-[10%] translate-y-[130%] rotate-35"/>
+                    <img src="/scroll2img1.jpg" alt="Image 1"  className="absolute w-60 h-60 opacity-70 brightness-110 border-3 border-white shadow-lg shadow-black/80 -translate-x-[200%] -translate-y-[70%] -rotate-20"/>
+                    <img src="/scroll2img2.jpg" alt="Image 2"  className="absolute w-60 h-60 opacity-70 brightness-110 border-3 border-white shadow-lg shadow-black/80 translate-x-[220%] -translate-y-[10%] rotate-8"/>
+                    <img src="/scroll2img3.jpg" alt="Image 3"  className="absolute w-60 h-60 opacity-70 brightness-110 border-3 border-white shadow-lg shadow-black/80 -translate-x-[10%] translate-y-[130%] rotate-35"/>
                 </div>
 
                 {/* Part Five */}
