@@ -42,6 +42,6 @@ export default function ScrollarParent(){
             <ScrollablePart />
             <Camera scrollposition={scrollposition}/>
             <CameraShadow scrollposition={scrollposition}/>
-            <Background />
+            {/* <Background /> */}
         </div>)
 }

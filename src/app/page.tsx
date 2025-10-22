@@ -13,14 +13,14 @@ export default function Page(){
   }
 
 
-  return(<div className="relative w-screen h-screen">
+  return(<div className="relative w-screen h-[calc(100dvh - 60px)]">
     
     <FixedBlock />
     {/* <Camera /> */}
-    {/* <CameraShadow />
-    <Background /> */}
+    {/* <CameraShadow />  */}
+    <Background /> 
     <ScrollarParent /> 
-                                                    {/* z stacking order in issue scrollar not working */}
+                                      
 
     
      </div>)

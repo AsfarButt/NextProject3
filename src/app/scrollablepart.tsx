@@ -40,7 +40,7 @@ export default function ScrollablePart(){
     return(<div className="relative w-screen h-auto overflow-hidden z-5">
                 {/* Part One */}
                 <div className="relative mt-25 w-full h-full flex flex-row justify-center">
-                <div className={`max-w-[50%] scale-0 text-[180px] text-center transition-all opacity-50 duration-1000 ${domine.className} font-bold text-orange-700/85`} ref={heading1ref}>CAPTURING MOMENTS AND </div>
+                <div className={`max-w-[50%] scale-0 text-[180px] text-center transition-all opacity-50 duration-1000 ${domine.className} font-bold text-orange-700/85`} ref={heading1ref}>CAPTURING MOMENTS AND MORE</div>
                  </div>
 
                 {/* Part Two */}
@@ -114,14 +114,14 @@ export default function ScrollablePart(){
                 </div>
 
                 {/* Part Five */}
-                <div className="relative mt-60 w-full h-full flex flex-row">
+                <div className="relative mt-60 mb-30 w-full h-full flex flex-row">
                     <div className="relative w-[8%] min-w-26 h-full"></div>
                     <div className=" relative w-full h-160 flex flex-row justify-between items-center">
 
                         <div className="w-[26%] min-w-120 h-100 flex flex-col justify-center">
                             <div className="relative w-full h-auto flex flex-shrink-0 justify-center">
                                 <img src="camera1.png" alt="Camera 1" className="w-[80%] max-w-180 h-auto"/>
-                                <div className="absolute left-18 top-3 -z-1 shadow-sm shadow-black/30 blur-lg w-[55%] h-[75%] bg-black/30 rounded-xl" /> 
+                                <div className="absolute left-14 top-20 -z-1 shadow-[5px] shadow-black/30 blur-sm w-[55%] h-[65%] bg-black/45 rounded-2xl" /> 
                             </div>
                             <div className={`${homemadeapple.className} text-center`}>
                                 <h1 className="text-gray-950/90">Lunaris X-Pro</h1>
@@ -130,8 +130,8 @@ export default function ScrollablePart(){
                         </div>
                         <div className="w-[26%] min-w-120 h-100 flex flex-col justify-center">
                             <div className="relative w-full h-auto flex flex-shrink-0 justify-center">
-                                <div className="w-[80%] max-w-180 h-80"/>
-                                {/* <div className="absolute left-18 top-3 -z-1 shadow-sm shadow-black/30 blur-lg w-[55%] h-[75%] bg-black/30 rounded-xl" /> */}
+                                <div className="w-[80%] max-w-180 h-70"/>
+                                {/* <div className="absolute left-18 top-3 -z-1 shadsm-sm shadow-black/30 bllg-sm w-[55%] h-[65%] bg-black/45 rounded-xl" /> */}
                             </div>
                             <div className={`${homemadeapple.className} text-center`}>
                                 <h1 className="text-gray-950/90">Leica M1z&#45;R</h1>
@@ -141,7 +141,7 @@ export default function ScrollablePart(){
                         <div className="w-[26%] min-w-120 h-100 flex flex-col justify-center">
                             <div className="relative w-full h-auto flex flex-shrink-0 justify-center">
                                 <img src="camera3.png" alt="Camera 1" className="w-[80%] max-w-180 h-auto"/>
-                                <div className="absolute left-18 top-3 -z-1 shadow-sm shadow-black/30 blur-lg w-[55%] h-[75%] bg-black/30 rounded-xl" />
+                                <div className="absolute left-14 top-20 -z-1 shadow-[5px] shadow-black/30 blur-sm w-[55%] h-[65%] bg-black/45 rounded-2xl" />
                             </div>
                             <div className={`${homemadeapple.className} text-center`}>
                                 <h1 className="text-gray-950/90">Velora Sigma</h1>
@@ -153,6 +153,3 @@ export default function ScrollablePart(){
 
     </div>)
 }
-
-
-
