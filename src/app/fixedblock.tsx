@@ -23,8 +23,10 @@ export default function FixedBlock(){
     const [istrue, setistrue] = useState(false);
 
     useEffect(() => {
+        setTimeout(()=>{
         onstart1.current?.classList.remove("-translate-x-[100%]");
         onstart2.current?.classList.remove("-translate-y-[100%]");
+        },10)
     },[])
 
     return(<div className="fixed flex w-screen h-screen z-5 overflow-hidden pointer-events-none">
