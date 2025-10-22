@@ -32,7 +32,9 @@ export default function ScrollablePart(){
 
     useEffect(() => {
         window.scrollTo(0,0);
-        heading1ref.current?.classList.remove("scale-0","opacity-50");
+        setTimeout(() => {
+            heading1ref.current?.classList.remove("scale-0","opacity-50");
+        },10)
     },[])
 
 
